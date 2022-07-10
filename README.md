@@ -28,3 +28,5 @@ FW：p5.js, ml5.js, SkyWay
 
 インフラ：Azure ( Static Web Apps )
 
+## Contributers
+・伊勢田氷琴(Iseda Hikoto) 奈良先端科学技術大学院大学先端科学技術研究科情報科学領域ユビキタス・コンピューティングシステム研究室M1
