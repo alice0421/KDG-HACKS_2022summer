@@ -121,7 +121,11 @@ function detect_fukkin(result) {
       console.log("腹筋あり");
       fukkin_ct = fukkin_ct + 1;
       document.querySelector("#fukkin-ct").textContent = fukkin_ct;
-      document.hanabi_1.src = "img/hanabi_orange.svg";
+      document.hanabi_5.src = "img/hanabi_pink.svg";
+      document.hanabi_4.src = "img/hanabi_pink.svg";
+      document.hanabi_3.src = "img/hanabi_orangeBig.svg";
+      document.hanabi_2.src = "img/hanabi_orangeBig.svg";
+      document.hanabi_1.src = "img/hanabi_orangeBig.svg";
       document.getElementById("audioElement").currentTime = 0;
       document.getElementById("audioElement").play();
       document.querySelector("#score").textContent = score_end;

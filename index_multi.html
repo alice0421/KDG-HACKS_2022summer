@@ -10,40 +10,53 @@
     <style></style>
   </head>
   <body>
-    <main>
-      <div id="start-button" class="start-button">
-        <h1>Build<br />Muscle</h1>
-        <button class="start-text">START!</button>
-        <audio id="audioElement_start" src="img/start.mp3"></audio>
-        <audio id="audioElement_finish" src="img/finish.mp3"></audio>
+  <main>
+    <div id="start-button" class="start-button">
+      <h1>Build<br>Muscle</h1>
+      <button class="start-text">START!</button>
+      <audio id="audioElement_start" src="img/start.mp3"></audio>
+      <audio id="audioElement_finish" src="img/finish.mp3"></audio>
+    </div>
+    <div class="timer" id="timer-wrap">
+      <p id="timer">3</p>
+    </div>
+    <div class="video-wrap">
+      <div class="orange" id="orange">
+        <ul>
+          <li class="orange-list"></li>
+          <li class="orange-list"></li>
+          <li class="orange-list"></li>
+          <li class="orange-list"></li>
+          <li class="orange-list"></li>
+        </ul>
       </div>
-      <div class="timer" id="timer-wrap">
-        <p id="timer">3</p>
-      </div>
-      <div class="video-wrap">
-        <div class="orange" id="orange"></div>
-        <img class="wave-wrap" id="wave-wrap" src="img/wave.svg" />
-        <!--      <video id="video"></video>-->
-        <div id="p5-canvas-wrapper" class="video"></div>
-        <div class="sub-wrap" id="sub-wrap">
-          <div class="count-wrap me">
-            <p id="fukkin-me-ct">0</p>
+      <img class="wave-wrap" id="wave-wrap" src="img/wave.svg">
+      <!--      <video id="video"></video>-->
+      <div id="p5-canvas-wrapper"  class="video"></div>
+      <div class="sub-wrap" id="sub-wrap">
+        <div class="count-wrap me">
+          <p id="fukkin-me-ct">0</p>
+        </div>
+        <div class="count-wrap you">
+          <p id="fukkin-you-ct">0</p>
+        </div>
+        <div class="time-wrap">
+          <p>Time<br><span id="timer2">30</span></p>
+        </div>
+        <div class="">
+          <div class="hanabi-1" id="hanabi-1">
+            <img src="img/hanabi_pinkBig.svg" name="hanabi_1" />
+            <audio id="audioElement_hanabi" src="img/hanabiSE.mp3"></audio>
+            <audio id="audioElement_battle" src="img/BGM.mp3"></audio>
           </div>
-          <div class="count-wrap you">
-            <p id="fukkin-you-ct">0</p>
+          <div class="hanabi-2">
+            <img src="img/hanabi_orange.svg" name="hanabi_2"/>
           </div>
-          <div class="time-wrap">
-            <p>Time<br /><span id="timer2">30</span></p>
+          <div class="hanabi-4">
+            <img src="img/hanabi_pink.svg" name="hanabi_4"/>
           </div>
-          <div class="">
-            <div class="hanabi-1" id="hanabi-1">
-              <img src="img/hanabi_orange.svg" name="hanabi_1" />
-              <audio id="audioElement_hanabi" src="img/hanabiSE.mp3"></audio>
-              <audio id="audioElement_battle" src="img/BGM.mp3"></audio>
-            </div>
-            <div class="hanabi-2" id="hanabi-2">
-              <img src="img/hanabi_orange.svg" name="hanabi_2" />
-            </div>
+          <div class="hanabi-5">
+            <img src="img/hanabi_pink.svg" name="hanabi_5"/>
           </div>
         </div>
       </div>

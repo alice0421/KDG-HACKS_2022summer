@@ -57,6 +57,38 @@ main{
     height: 400px;
     opacity: 0.8;
 }
+.orange li{
+    width: 100px;
+    height: 30px;
+    background-color:  #f39800;
+    position: absolute;
+    list-style: none;
+}
+.orange li:nth-child(1){
+    transform: rotate(0deg);
+    top: 170px;
+    left: 430px;
+}
+.orange li:nth-child(2){
+    transform: rotate(20deg);
+    top: 290px;
+    left: 410px;
+}
+.orange li:nth-child(3){
+    transform: rotate(40deg);
+    top: 395px;
+    left: 350px;
+}
+.orange li:nth-child(4){
+    transform: rotate(65deg);
+    top: 460px;
+    left: 250px;
+}
+.orange li:nth-child(5){
+    transform: rotate(90deg);
+    top:480px;
+    left: 130px;
+}
 .wave-wrap.start{
     display: none;
 }
@@ -94,6 +126,7 @@ main{
     transform: translateX(-50%);
     font-weight: bold;
     font-size: 300px;
+    z-index: 100;
 }
 .count-wrap.you{
     left: 65%;
@@ -203,13 +236,28 @@ main{
 }
 .hanabi-1{
     position: absolute;
-    top: -20%;
-    left: -20%;
+    top: -5%;
+    left: -10%;
 }
 .hanabi-2{
     position: absolute;
     top: 0;
     left: 50%;
+}
+.hanabi-3{
+    position: absolute;
+    top: -20%;
+    left: 25%;
+}
+.hanabi-4{
+    position: absolute;
+    top: -20%;
+    left: 35%;
+}
+.hanabi-5{
+    position: absolute;
+    top: 0;
+    left: 0%;
 }
 .calender {
     position: absolute;
