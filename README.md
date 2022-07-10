@@ -30,3 +30,4 @@ FW：p5.js, ml5.js, SkyWay
 
 ## Contributers
 ・伊勢田氷琴(Iseda Hikoto) 奈良先端科学技術大学院大学先端科学技術研究科情報科学領域ユビキタス・コンピューティングシステム研究室M1
+・渡邊優貴（Watanabe Yuki）電気通信大学情報理工学研究科機械知能システム学専攻M1
